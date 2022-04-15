@@ -307,7 +307,7 @@ public class PhoneTest {
 	public static void main(String[] args) {
 		
 		// Create an array list phone book of predefined phone objects of different types
-		ArrayList<Phone> phonebook = new ArrayList<Phone>();
+		List<Phone> phonebook = new ArrayList<>();
 		phonebook.add(new FixedLinePhone("0211112222", "Vodafone", "123 Somewhere St, ELSEWHERE, 2000"));
 		phonebook.add(new FixedLinePhone("0311112222", "Optus", "456 Another Ave, ELSEWHERE, 3000"));
 		phonebook.add(new FixedLinePhone("0755556666", "Telstra", "789 Fake Rd, SOMEWHERE, 4000"));
